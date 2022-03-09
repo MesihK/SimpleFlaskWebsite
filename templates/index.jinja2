@@ -1,0 +1,9 @@
+{% extends "layout.jinja2" %}
+{% block content %}
+{% from 'bootstrap5/form.html' import render_form %}
+
+<div class="container mt-4">
+      {{ render_form(form) }}
+</div>
+
+{% endblock %}
